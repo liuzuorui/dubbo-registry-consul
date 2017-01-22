@@ -1,4 +1,8 @@
-创建dubbo-registry-consul项目
+基于
+dubbox：2.8.4
+consul:0.7.0
+
+dubbo-registry项目下创建dubbo-registry-consul项目
 
 resources创建META-INF.dubbo.internal目录，其中名为com.alibaba.dubbo.registry.RegistryFactory的文件，
 内容为consul=com.alibaba.dubbo.registry.consul.ConsulRegistryFactory
